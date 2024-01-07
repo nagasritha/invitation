@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import Templet1 from './Components/Templet1'
 import './App.css';
 
-function App() {
+const App = ()=>{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+ <div>
+ 
+  <div className='home'>
+  
+    <div className='animated-para'>
+       <p className='typing'>Wow! invitation within seconds? Yes</p>
     </div>
-  );
+     <Templet1/>
+  </div>
+  <nav>
+    <img alt='logo' src='https://res.cloudinary.com/dkredoejm/image/upload/v1704625487/celbrare_ygr97d.png' className='image'/>
+    <h1 className='celebrate'>Celebrare</h1>
+  </nav>
+  
+ </div>
+  )
 }
 
 export default App;
